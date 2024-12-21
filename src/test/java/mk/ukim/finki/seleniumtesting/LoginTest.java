@@ -57,7 +57,7 @@ public class LoginTest {
 
 
     private WebDriver getDriver() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\gabri\\Desktop\\Intellij Homeworks\\SeleniumAutomaticTesting\\src\\main\\resources\\drivers\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", ".\src\chromedriver-win64\chromedriver.exe");
         return new ChromeDriver();
     }
 
